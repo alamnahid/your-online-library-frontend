@@ -1,0 +1,152 @@
+header{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 5px 5px whitesmoke;
+    
+    
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+nav ul li {
+  margin-right: 10px;
+    margin-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  
+}
+.bg-image{
+    background-image: url(pictures/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+h2{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 140px;
+    color: white;
+}
+.search{
+    height: 60px;
+    width: 60%;
+    text-align: center;
+    font-size: larger;
+    border: solid;
+    border-color: blanchedalmond;
+    border-radius: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+    
+}
+.sea{
+    font-size: 35px;
+    background-color: white;
+    width: 145px;
+    height: 55px;
+    text-align: center;
+    border: solid;
+    border-color: bisque;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin-left: 45%;
+    margin-right: 40%;
+    
+}
+
+.container{
+    display: flex;
+    border: solid;
+    border-color: whitesmoke;
+    
+    padding: 10px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+.box{
+    flex: 1;
+    text-align: center;
+    
+}
+.content{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.boxes{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+.para{
+    font-size: 22px;
+}
+.container1{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box1, .box2{
+    flex: 1;
+}
+.boxinside{
+    display: flex;
+}
+.imgbox{
+    flex: 1;
+}
+
+.container3{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.boxdesign{
+    flex: 1;
+    border: solid;
+    border-color: azure;
+    box-shadow: 10px 5px 5px wheat;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.container-footer{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+}
+.footerbox{
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+}
+footer{
+    background-color: black;
+}
